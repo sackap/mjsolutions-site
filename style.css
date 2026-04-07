@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f8fafc;
+  margin: 0;
+  color: #1f2937;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero h1 {
+  font-size: 36px;
+}
+
+.hero p {
+  color: #6b7280;
+}
+
+.sub {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 14px 24px;
+  background: #2563eb;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.section {
+  background: white;
+  padding: 30px;
+  margin-top: 20px;
+  border-radius: 12px;
+}
+
+.steps {
+  display: flex;
+  gap: 10px;
+}
+
+.step {
+  flex: 1;
+  background: #f1f5f9;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.box {
+  background: #f1f5f9;
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 8px;
+}
