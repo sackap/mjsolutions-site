@@ -6,75 +6,55 @@ body {
 }
 
 .container {
-  max-width: 900px;
+  max-width: 700px;
   margin: auto;
-  padding: 40px 20px;
-}
-
-.hero {
-  text-align: center;
   padding: 60px 20px;
+  text-align: center;
 }
 
 .hero h1 {
   font-size: 36px;
+  margin-bottom: 10px;
 }
 
-.hero p {
-  color: #6b7280;
-}
-
-.sub {
-  font-size: 14px;
-  margin-top: 10px;
+.subheadline {
+  font-size: 18px;
+  color: #4b5563;
+  margin-bottom: 25px;
 }
 
 .button {
   display: inline-block;
-  margin-top: 20px;
-  padding: 14px 24px;
+  padding: 14px 28px;
   background: #2563eb;
   color: white;
   text-decoration: none;
   border-radius: 8px;
   font-weight: bold;
+  font-size: 16px;
 }
 
-.section {
-  background: white;
-  padding: 30px;
-  margin-top: 20px;
-  border-radius: 12px;
-}
-
-.steps {
-  display: flex;
-  gap: 10px;
-}
-
-.step {
-  flex: 1;
-  background: #f1f5f9;
-  padding: 15px;
-  border-radius: 8px;
-  text-align: center;
-}
-
-.box {
-  background: #f1f5f9;
-  padding: 15px;
-  margin-top: 10px;
-  border-radius: 8px;
-}
-
-.trust {
-  margin-top: 20px;
-  color: #374151;
-  font-size: 15px;
-}
-
-.hook {
-  margin-top: 8px;
-  color: #6b7280;
+.note {
+  margin-top: 12px;
   font-size: 14px;
+  color: #6b7280;
+}
+
+.support {
+  margin-top: 40px;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.tags span {
+  background: #e5e7eb;
+  padding: 8px 12px;
+  border-radius: 20px;
+  font-size: 13px;
 }
