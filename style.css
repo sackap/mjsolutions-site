@@ -66,3 +66,15 @@ body {
   margin-top: 10px;
   border-radius: 8px;
 }
+
+.trust {
+  margin-top: 20px;
+  color: #374151;
+  font-size: 15px;
+}
+
+.hook {
+  margin-top: 8px;
+  color: #6b7280;
+  font-size: 14px;
+}
